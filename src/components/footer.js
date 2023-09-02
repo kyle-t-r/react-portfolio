@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div class="footer-container">
       <div class="footer-links">
-        <h2 class="footer-label">Links</h2>
+        <h2 class="footer-label">Let's get in touch.</h2>
         <ul>
           <li>
             <a href="#home">
@@ -28,15 +28,22 @@ function Footer() {
               <Icon icon="ant-design:github-outlined" height="72px" />
             </a>
           </li>
+          <li>
+            <a
+              href="mailto:kyletradick@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon icon="mdi:email" height="72px" />
+            </a>
+          </li>
         </ul>
       </div>
       <ul class="footer-contact">
-        <li>
-          <h2 class="footer-label">Contact</h2>
-        </li>
         <li>Kyle Radick</li>
         <li>kyletradick@gmail.com</li>
         <li>678-707-9434</li>
+        <li>Copyright© 2023</li>
       </ul>
     </div>
   );
