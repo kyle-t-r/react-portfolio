@@ -1,0 +1,37 @@
+.footer-container {
+  min-height: 35vh;
+  background-color: #cca;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-label {
+  font-size: 48px;
+  text-align: center;
+}
+.footer-links,
+.footer-contact {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-links ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.footer-links,
+.footer-contact {
+  color: #664;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-links li a {
+  color: #664;
+}
+
+.footer-links li a:hover {
+  color: #221;
+}
