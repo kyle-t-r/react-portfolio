@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kyle-t-r/static/css/main.732edea7.css",
+    "main.js": "/kyle-t-r/static/js/main.8721d8fb.js",
+    "index.html": "/kyle-t-r/index.html",
+    "main.732edea7.css.map": "/kyle-t-r/static/css/main.732edea7.css.map",
+    "main.8721d8fb.js.map": "/kyle-t-r/static/js/main.8721d8fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.732edea7.css",
+    "static/js/main.8721d8fb.js"
+  ]
+}
