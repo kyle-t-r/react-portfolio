@@ -13,37 +13,37 @@ function About() {
         <div class="about-tech-row">
           <div class="about-tech-wrapper">
             <div class="about-tech-header">Java</div>
-            <Icon icon="skill-icons:java-dark" height="96px" />
+            <Icon icon="skill-icons:java-dark" />
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">.NET</div>
-            <Icon icon="logos:dotnet" height="96px" />
+            <Icon icon="logos:dotnet" />
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">C#</div>
-            <Icon icon="skill-icons:cs" height="96px" />
+            <Icon icon="skill-icons:cs" />
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">MySQL</div>
-            <Icon icon="skill-icons:mysql-dark" height="96px" />
+            <Icon icon="skill-icons:mysql-dark" />
           </div>
         </div>
         <div class="about-tech-row">
           <div class="about-tech-wrapper">
             <div class="about-tech-header">CSS</div>
-            <Icon icon="skill-icons:css" height="96px" />
+            <Icon icon="skill-icons:css" />
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">JavaScript</div>
-            <Icon icon="skill-icons:javascript" height="96px" />
+            <Icon icon="skill-icons:javascript" />
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">Git</div>
-            <Icon icon="skill-icons:git" height="96px" />
+            <Icon icon="skill-icons:git" />
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">React</div>
-            <Icon icon="skill-icons:react-dark" height="96px" />
+            <Icon icon="skill-icons:react-dark" />
           </div>
         </div>
       </div>

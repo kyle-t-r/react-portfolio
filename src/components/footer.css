@@ -25,8 +25,8 @@
 .footer-links,
 .footer-contact {
   color: #664;
-  font-size: 20px;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 .footer-links li a {
@@ -35,4 +35,24 @@
 
 .footer-links li a:hover {
   color: #221;
+}
+
+@media (min-width: 200px) {
+  .footer-links,
+  .footer-contact {
+    font-size: 16px;
+  }
+  .footer-label {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 769px) {
+  .footer-links,
+  .footer-contact {
+    font-size: 20px;
+  }
+  .footer-label {
+    font-size: 48px;
+  }
 }
