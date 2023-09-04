@@ -23,6 +23,7 @@
   background-color: #cca;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
   position: fixed;
+  opacity: 0;
 }
 
 .nav-home a,
