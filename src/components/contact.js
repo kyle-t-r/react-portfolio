@@ -16,22 +16,22 @@ function Contact() {
     }
     if (name.length === 0) {
       document.getElementById("contact-label").innerHTML =
-        '<h2 id="contact-label" class="contact-label"> You must have a name, right? </h2>';
+        "You must have a name, right?";
       return;
     }
     if (email.length === 0) {
       document.getElementById("contact-label").innerHTML =
-        '<h2 id="contact-label" class="contact-label"> I need to reply somehow... </h2>';
+        "I need to reply somehow...";
       return;
     }
     if (!email.match(emailRegex)) {
       document.getElementById("contact-label").innerHTML =
-        '<h2 id="contact-label" class="contact-label" style="font-size: 36px;"> Invalid Email. I\'ll pretend I don\'t see that typo. </h2>';
+        "Invalid Email. I'll pretend I don't see that typo.";
       return;
     }
     if (message.length === 0) {
       document.getElementById("contact-label").innerHTML =
-        '<h2 id="contact-label" class="contact-label"> Yes, the message is required. </h2>';
+        "Yes, the message is required.";
       return;
     }
 
