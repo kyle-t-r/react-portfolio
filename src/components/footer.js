@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div class="footer-container">
       <div class="footer-links">
-        <h2 class="footer-label">Let's get in touch.</h2>
+        <h2 class="footer-label">...and stay in touch.</h2>
         <ul>
           <li>
             <a href="#home">

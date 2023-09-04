@@ -65,6 +65,27 @@
 }
 
 @media (min-width: 769px) {
+  .hero-container h2 {
+    font-size: 72px;
+    line-height: 0.8;
+  }
+
+  .hero-container h1 {
+    font-size: 98px;
+    line-height: 1.2;
+  }
+
+  .hero-container h5 {
+    font-size: 56px;
+    line-height: 1.2;
+  }
+  .hero-portrait-image {
+    max-height: 70%;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1025px) {
   .hero-container {
     flex-direction: row;
   }
@@ -83,7 +104,7 @@
     line-height: 1.2;
   }
   .hero-portrait-image {
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 70%;
+    max-width: 70%;
   }
 }

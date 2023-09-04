@@ -16,12 +16,12 @@ function About() {
             <Icon icon="skill-icons:java-dark" />
           </div>
           <div class="about-tech-wrapper">
-            <div class="about-tech-header">.NET</div>
-            <Icon icon="logos:dotnet" />
-          </div>
-          <div class="about-tech-wrapper">
             <div class="about-tech-header">C#</div>
             <Icon icon="skill-icons:cs" />
+          </div>
+          <div class="about-tech-wrapper">
+            <div class="about-tech-header">.NET</div>
+            <Icon icon="logos:dotnet" />
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">MySQL</div>
@@ -38,12 +38,12 @@ function About() {
             <Icon icon="skill-icons:javascript" />
           </div>
           <div class="about-tech-wrapper">
-            <div class="about-tech-header">Git</div>
-            <Icon icon="skill-icons:git" />
-          </div>
-          <div class="about-tech-wrapper">
             <div class="about-tech-header">React</div>
             <Icon icon="skill-icons:react-dark" />
+          </div>
+          <div class="about-tech-wrapper">
+            <div class="about-tech-header">Git</div>
+            <Icon icon="skill-icons:git" />
           </div>
         </div>
       </div>

@@ -8,6 +8,8 @@ import Footer from "./components/footer";
 import "./components/footer.css";
 import About from "./components/about";
 import "./components/about.css";
+import Contact from "./components/contact";
+import "./components/contact.css";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <NavBar />
       <Hero />
       <About />
+      <Contact />
       <Footer />
     </React.StrictMode>
   );

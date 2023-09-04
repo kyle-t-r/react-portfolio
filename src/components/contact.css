@@ -1,0 +1,77 @@
+.contact-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #664;
+  padding: 5vh 0 5vh 0;
+}
+
+.contact-label {
+  color: #cca;
+  margin-bottom: 12px;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 4px 4px rgb(50, 50, 50, 0.8);
+}
+
+.contact-input,
+.contact-message {
+  font-size: 18px;
+  padding: 12px;
+  margin: 12px;
+  border: 1px solid #664;
+  background-color: #515136;
+  color: #cca;
+  border-radius: 12px;
+}
+
+.contact-submit {
+  background-color: #515136;
+  color: #cca;
+  margin: 12px;
+  font-size: 36px;
+  font-weight: 600;
+  text-shadow: 2px 2px rgb(50, 50, 50, 0.8);
+  border: none;
+  border-radius: 10px;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+::placeholder {
+  color: #cca;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 24px;
+  text-shadow: 2px 2px rgb(50, 50, 50, 0.8);
+}
+
+@media (min-width: 200px) {
+  .contact-input,
+  .contact-message {
+    width: 75%;
+  }
+  .contact-submit {
+    width: 40%;
+  }
+}
+
+@media (min-width: 769px) {
+  .contact-input,
+  .contact-message {
+    width: 55%;
+  }
+  .contact-submit {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .contact-input,
+  .contact-message {
+    width: 35%;
+  }
+  .contact-submit {
+    width: 20%;
+  }
+}
