@@ -1,15 +1,16 @@
 .footer-container {
-  min-height: 35vh;
+  min-height: 30vh;
   background-color: #cca;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
   flex-direction: column;
 }
 .footer-label {
   font-size: 48px;
   text-align: center;
 }
+
 .footer-links,
 .footer-contact {
   display: inline-block;
@@ -38,9 +39,8 @@
 }
 
 @media (min-width: 200px) {
-  .footer-links,
   .footer-contact {
-    font-size: 16px;
+    font-size: 10px;
   }
   .footer-label {
     font-size: 36px;
@@ -48,9 +48,8 @@
 }
 
 @media (min-width: 769px) {
-  .footer-links,
-  .footer-contact {
-    font-size: 20px;
+  .footer-contact li {
+    font-size: 14px;
   }
   .footer-label {
     font-size: 48px;

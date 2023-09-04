@@ -8,13 +8,12 @@
 
 .hero-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding-top: 17.5vh;
   padding-bottom: 27vh;
-  min-height: 30vh;
+  min-height: 56vh;
   background-color: #664;
 }
 
@@ -23,7 +22,6 @@
 }
 
 .hero-portrait {
-  margin-top: 5em;
   display: inline-block;
 }
 
@@ -42,6 +40,9 @@
 }
 
 @media (min-width: 200px) {
+  .hero-container {
+    flex-direction: column;
+  }
   .hero-container h2 {
     font-size: 32px;
     line-height: 1.2;
@@ -57,12 +58,16 @@
     line-height: 2;
   }
   .hero-portrait-image {
+    margin-top: 5vh;
     max-height: 75%;
     max-width: 75%;
   }
 }
 
 @media (min-width: 769px) {
+  .hero-container {
+    flex-direction: row;
+  }
   .hero-container h2 {
     font-size: 72px;
     line-height: 0.8;

@@ -30,7 +30,7 @@ function Footer() {
           </li>
           <li>
             <a
-              href="mailto:kyletradick@gmail.com"
+              href="mailto:kyletr.webdev@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -41,8 +41,7 @@ function Footer() {
       </div>
       <ul class="footer-contact">
         <li>Kyle Radick</li>
-        <li>kyletradick@gmail.com</li>
-        <li>678-707-9434</li>
+        <li>kyletr.webdev@gmail.com</li>
         <li>Copyright© 2023</li>
       </ul>
     </div>
