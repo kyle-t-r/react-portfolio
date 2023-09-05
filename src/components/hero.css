@@ -61,7 +61,7 @@
     width: 0;
   }
   to {
-    width: 8.1vw;
+    width: 85%;
   }
 }
 
@@ -92,6 +92,14 @@
     margin-top: 2.25vh;
     max-width: 100%;
   }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 96.5%;
+    }
+  }
 }
 
 @media (min-width: 769px) {
@@ -114,5 +122,13 @@
   .hero-portrait-image {
     margin-top: 2.25vh;
     max-width: 75%;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 85%;
+    }
   }
 }
