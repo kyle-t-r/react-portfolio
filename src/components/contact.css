@@ -41,12 +41,6 @@
   padding: 0.25em 0.5em 0.25em 0.5em;
 }
 
-.botTrap {
-  height: 1px;
-  width: 1px;
-  visibility: hidden;
-}
-
 ::placeholder {
   color: #cca;
   opacity: 1;

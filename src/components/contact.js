@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 function Contact() {
-  const [trap, setTrap] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -10,10 +9,6 @@ function Contact() {
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
   function Validate() {
-    if (trap.length > 0) {
-      alert("You are a bot! Not today SkyNet.");
-      return;
-    }
     if (name.length === 0) {
       document.getElementById("contact-label").innerHTML =
         "You must have a name, right?";
@@ -43,13 +38,6 @@ function Contact() {
       <h2 id="contact-label" class="contact-label">
         Let's get in touch.
       </h2>
-      <input
-        type="text"
-        name="Begone, bots!"
-        id="trap"
-        class="botTrap"
-        onInput={(e) => setTrap(e.target.value)}
-      />
       <input
         type="text"
         class="contact-input"
