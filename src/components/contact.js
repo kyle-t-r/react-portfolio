@@ -69,7 +69,7 @@ function Contact() {
       <button
         type="button"
         class="contact-submit"
-        name="submit"
+        name="btnSubmit"
         value="Send"
         onClick={() => {
           Validate();
