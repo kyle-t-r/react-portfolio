@@ -69,8 +69,8 @@ function Contact() {
       />
 
       <textarea
-        name="message"
         class="contact-message"
+        name="message"
         id="message"
         cols="30"
         rows="8"
@@ -80,8 +80,9 @@ function Contact() {
 
       <button
         type="button"
-        value="Send"
         class="contact-submit"
+        name="submit"
+        value="Send"
         onClick={() => {
           Validate();
         }}
