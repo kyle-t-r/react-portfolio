@@ -50,13 +50,13 @@ svg {
     font-size: 20px;
   }
   svg {
-    font-size: 2em;
+    font-size: 3em;
   }
   .about-tech-header {
     color: #cca;
     font-size: 20px;
     text-align: center;
-    width: 100px;
+    width: 80px;
   }
 }
 
