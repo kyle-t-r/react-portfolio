@@ -38,6 +38,7 @@ function Contact() {
       <h2 id="contact-label" class="contact-label">
         Let's get in touch.
       </h2>
+      <input type="hidden" name="form-name" value="contact" />
       <input
         type="text"
         class="contact-input"
