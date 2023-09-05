@@ -40,6 +40,13 @@
   color: #221;
 }
 
+.coming-soon {
+  color: gray;
+}
+.coming-soon:hover {
+  color: gray;
+}
+
 @media (min-width: 200px) {
   .nav-main,
   .nav-list {
