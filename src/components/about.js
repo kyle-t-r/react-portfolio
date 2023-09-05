@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 function About() {
   return (
-    <div class="about-container">
+    <div class="about-container" id="about">
       <div class="about-intro">
         My name is Kyle Radick, and I've been passionate about web development
         for a long time. From tinkering with developer tools in middleschool, to

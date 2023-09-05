@@ -34,7 +34,7 @@ function Contact() {
   }
 
   return (
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
       <h2 id="contact-label" class="contact-label">
         Let's get in touch.
       </h2>
@@ -42,7 +42,7 @@ function Contact() {
         name="contact"
         id="contact"
         class="contact-form"
-        method="POST"
+        action="/thanks/"
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contact" />
