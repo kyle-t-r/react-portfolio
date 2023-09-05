@@ -34,7 +34,7 @@ function Contact() {
   }
 
   return (
-    <form name="contact" id="contact" class="contact-form">
+    <form name="contact" id="contact" class="contact-form" method="post">
       <h2 id="contact-label" class="contact-label">
         Let's get in touch.
       </h2>
