@@ -42,6 +42,7 @@ function Contact() {
         name="contact-form"
         id="contact-form"
         class="contact-form"
+        method="POST"
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contact" />
@@ -52,6 +53,8 @@ function Contact() {
           name="name"
           id="name"
           placeholder="Name"
+          autocomplete="off"
+          method="POST"
           onInput={(e) => setName(e.target.value)}
         />
 
@@ -61,6 +64,7 @@ function Contact() {
           name="email"
           id="email"
           placeholder="Email"
+          autocomplete="off"
           onInput={(e) => setEmail(e.target.value)}
         />
 
