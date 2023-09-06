@@ -45,7 +45,7 @@ function Contact() {
         method="POST"
         data-netlify="true"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="contact-form" />
         <input type="hidden" name="bot-field" />
         <input
           type="text"
@@ -54,7 +54,6 @@ function Contact() {
           id="name"
           placeholder="Name"
           autocomplete="off"
-          method="POST"
           onInput={(e) => setName(e.target.value)}
         />
 
