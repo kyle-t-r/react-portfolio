@@ -1,3 +1,7 @@
+:root {
+  background-color: #cca;
+}
+
 .about-container {
   display: flex;
   justify-content: space-evenly;
@@ -14,7 +18,7 @@
   flex-shrink: 0;
   width: 100%;
 }
-.about-intro {
+.about-intro-text {
   color: #cca;
   font-weight: 200;
   text-shadow: 1px 1px rgb(50, 50, 50, 0.8);
@@ -27,6 +31,7 @@
   align-items: center;
   flex-direction: column;
 }
+.about-intro-header,
 .about-tech-header {
   color: #cca;
   font-weight: 600;
@@ -35,28 +40,56 @@
   margin-bottom: 10px;
 }
 
-svg {
-  font-size: 3em;
+svg:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.wipe {
+  animation: wipe-in-right;
+}
+
+/* Credit to https://www.transition.style/ for animation. */
+[transition-style="wipe"] {
+  animation: 1s cubic-bezier(0.25, 1, 0.3, 1) wipe both;
 }
 
 @media (min-width: 200px) {
   .about-container {
     flex-direction: column;
+    min-height: 60vh;
   }
-  .about-intro {
+  .about-intro-container {
     width: 80%;
+  }
+  .about-intro-text {
     font-size: 20px;
   }
   svg {
     font-size: 3em;
   }
+  .about-intro-header,
+  .about-tech-header {
+    font-size: 20px;
+  }
   .about-tech-header {
     font-size: 20px;
     width: 90px;
   }
+  @keyframes wipe {
+    from {
+      clip-path: inset(100% 0 0 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
 }
 
 @media (min-width: 769px) {
+  .about-container {
+    min-height: 40vh;
+  }
   .about-tech-header {
     font-size: 24px;
     width: 150px;
@@ -64,19 +97,31 @@ svg {
   svg {
     font-size: 4.5em;
   }
+  @keyframes wipe {
+    from {
+      clip-path: inset(0 0 0 100%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
 }
 
 @media (min-width: 1025px) {
   .about-container {
     flex-direction: row;
+    min-height: 50vh;
   }
-  .about-intro {
+  .about-intro-container {
     width: 30%;
+  }
+  .about-intro-text {
     font-size: 26px;
   }
   svg {
     font-size: 6em;
   }
+  .about-intro-header,
   .about-tech-header {
     font-size: 24px;
   }

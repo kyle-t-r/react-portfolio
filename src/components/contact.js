@@ -30,19 +30,18 @@ function Contact() {
       return;
     }
 
-    document.getElementById("contact").submit();
+    document.getElementById("contact-form").submit();
   }
 
   return (
-    <div class="contact-container" id="contact">
+    <div class="contact-container">
       <h2 id="contact-label" class="contact-label">
         Let's get in touch.
       </h2>
       <form
-        name="contact"
-        id="contact"
+        name="contact-form"
+        id="contact-form"
         class="contact-form"
-        action="/thanks/"
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contact" />
