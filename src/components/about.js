@@ -23,7 +23,7 @@ function About() {
     ],
     [
       "CSS",
-      "Front-end design is incredibly important to delivering a business proposition. I’ve developed a number of webpages from scrap, maintaining neat and well documented code along the way.",
+      "Front-end design is incredibly important to delivering a business proposition. I’ve developed a number of webpages from scratch, maintaining neat and well documented code along the way.",
     ],
     [
       "JavaScript",
