@@ -9,11 +9,6 @@ function NavBar() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#exp" class="coming-soon">
-            Experience
-          </a>
-        </li>
-        <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
