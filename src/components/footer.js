@@ -42,7 +42,7 @@ function Footer() {
       <ul class="footer-contact">
         <li>Kyle Radick</li>
         <li>kyletr.webdev@gmail.com</li>
-        <li>Copyright© 2023</li>
+        <li>Copyright© 2025</li>
       </ul>
     </div>
   );

@@ -54,6 +54,7 @@ function Contact() {
           id="name"
           placeholder="Name"
           autocomplete="off"
+          required
           onInput={(e) => setName(e.target.value)}
         />
 
@@ -64,6 +65,7 @@ function Contact() {
           id="email"
           placeholder="Email"
           autocomplete="off"
+          required
           onInput={(e) => setEmail(e.target.value)}
         />
 
@@ -74,6 +76,7 @@ function Contact() {
           cols="30"
           rows="8"
           placeholder="How can I help you?"
+          required
           onInput={(e) => setMessage(e.target.value)}
         ></textarea>
 

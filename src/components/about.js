@@ -7,35 +7,35 @@ function About() {
     ],
     [
       "Java",
-      "Worked with Java Database Connectivity (JDBC) tools to provide client-ready solutions, developed webapps to be deployed as headless Amazon Lambda functions, and created a general-purpose file sorting program.",
+      "Worked extensively in Adobe Experience Manager Sling - creating Servlets, Services, Models, Workflows, and more Models. Other notable projects include Spring Boot and Java Database Connectivity (JDBC).",
     ],
     [
       "C#",
       "Frequently updated and fine-tuned enterprise Sitecore controls – including template building and increasing scope of analytic tools – while simultaneously monitoring cross-site scripting vulnerabilities.",
     ],
     [
-      "Linux",
-      "Configured and tested Linux run hardware at scale and deployed Apache webservers in Amazon EC2 instances.",
+      "Docker",
+      "Maintained and created containerization projects, including complex interactions between images.",
     ],
     [
       "MySQL",
-      "I’ve created and deployed a number of queries to production databases, while also working with query-building and prepared statements. Multiple joins and subqueries are no stranger to me.",
+      "Created and deployed a number of queries to production databases, while also working with query-building and prepared statements.",
     ],
     [
-      "CSS",
-      "Front-end design is incredibly important to delivering a business proposition. I’ve developed a number of webpages from scratch, maintaining neat and well documented code along the way.",
+      "Kotlin",
+      "Many of my Java applications end up becoming Kotlin applications eventually...",
     ],
     [
       "JavaScript",
-      "Any modern website includes JavaScript now – this one included. Using powerful tools like Node.js, I’ve built API-driven user applications, React web projects, and more.",
+      "Any modern website includes JavaScript now – this one included, available on my GitHub. Experience in React (SPA) TypeScript and JavaScript.",
     ],
     [
-      "React",
-      "React is undeniably the “talk-of-the-town” in web development, and I have my fair share of experience. This website is developed in React – head over to my GitHub to see how.",
+      "Linux",
+      "Familiar with Debian-based distros, server management, bash, and definitely familiar with troubleshooting.",
     ],
     [
       "Git",
-      "I’ve performed thousands of commits in Git – ranging from projects just a few lines long, to decades old and tens of millions of lines long. The concept is the same – clean, maintainable code will always cut time and costs.",
+      "Outside of version control, my experience includes GitHub Actions and Copilot.",
     ],
   ];
 
@@ -95,7 +95,7 @@ function About() {
           <div class="about-tech-wrapper">
             <div class="about-tech-header">Linux</div>
             <div class="skill-icon-wrap" onClick={() => clickSkill(3)}>
-              <Icon icon="skill-icons:linux-dark" />
+              <Icon icon="skill-icons:docker" />
             </div>
           </div>
           <div class="about-tech-wrapper">
@@ -109,7 +109,7 @@ function About() {
           <div class="about-tech-wrapper">
             <div class="about-tech-header">CSS</div>
             <div class="skill-icon-wrap" onClick={() => clickSkill(5)}>
-              <Icon icon="skill-icons:css" />
+              <Icon icon="skill-icons:kotlin-dark" />
             </div>
           </div>
           <div class="about-tech-wrapper">
@@ -121,13 +121,13 @@ function About() {
           <div class="about-tech-wrapper">
             <div class="about-tech-header">React</div>
             <div class="skill-icon-wrap" onClick={() => clickSkill(7)}>
-              <Icon icon="skill-icons:react-dark" />
+              <Icon icon="skill-icons:linux-dark" />
             </div>
           </div>
           <div class="about-tech-wrapper">
             <div class="about-tech-header">Git</div>
             <div class="skill-icon-wrap" onClick={() => clickSkill(8)}>
-              <Icon icon="skill-icons:git" />
+              <Icon icon="skill-icons:github-dark" />
             </div>
           </div>
         </div>
