@@ -93,7 +93,7 @@ function About() {
             </div>
           </div>
           <div class="about-tech-wrapper">
-            <div class="about-tech-header">Linux</div>
+            <div class="about-tech-header">Docker</div>
             <div class="skill-icon-wrap" onClick={() => clickSkill(3)}>
               <Icon icon="skill-icons:docker" />
             </div>
@@ -107,7 +107,7 @@ function About() {
         </div>
         <div class="about-tech-row">
           <div class="about-tech-wrapper">
-            <div class="about-tech-header">CSS</div>
+            <div class="about-tech-header">Kotlin</div>
             <div class="skill-icon-wrap" onClick={() => clickSkill(5)}>
               <Icon icon="skill-icons:kotlin-dark" />
             </div>
@@ -119,7 +119,7 @@ function About() {
             </div>
           </div>
           <div class="about-tech-wrapper">
-            <div class="about-tech-header">React</div>
+            <div class="about-tech-header">Linux</div>
             <div class="skill-icon-wrap" onClick={() => clickSkill(7)}>
               <Icon icon="skill-icons:linux-dark" />
             </div>
